@@ -1,0 +1,11 @@
+curl -X GET "localhost:8080/webhook?hub.verify_token=2eZmRYZPijsRg5DM8tfeM0ZOVVr_6kZ14wMZnt8yg4uZ2yfCe&hub.challenge=CHALLENGE_ACCEPTED&hub.mode=subscribe"
+ 
+curl -X GET "localhost:8080/webhook?hub.verify_token=ep_2eZohzSwchH4migjT7kQuFmNbZR&hub.challenge=CHALLENGE_ACCEPTED&hub.mode=subscribe"
+
+ngrok http 8080
+
+2eYSoRDLXufRlA5FOxSlWitQ6fD_4TNaoKjWsuEhQVhtDZ7BU
+ngrok 2eZmRYZPijsRg5DM8tfeM0ZOVVr_6kZ14wMZnt8yg4uZ2yfCe
+
+
+https://c7b9-212-154-104-82.ngrok-free.app/webhook
